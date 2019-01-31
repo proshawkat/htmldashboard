@@ -1,0 +1,448 @@
+@media only screen and (max-width: 991px) {
+
+	.navbar_area_sm{
+		width: 100%; 
+		height: 52px;
+		padding-top: 7px;
+	}
+
+	.sidebar_wrapper ul li {
+		border-right: 0px;
+	}
+
+	.pane_header_sample_ticket{
+		width: 8%;
+		float: left;
+		padding-top: .5rem;
+	}
+
+	.pane_header_editable{
+		width: 87%;
+		float: left;
+	}
+
+	/*chat*/
+	.chat_messenger_name_img .chat_user_img{
+		width: 40px;
+		height: 40px;
+		float: left;
+	    display: block;
+		border-radius: 50%;
+		overflow: hidden;
+
+	}
+
+	.chat_messenger_name_img .chat_user_img img{
+		width: 100%;
+	    height: 100%;
+		position: relative;
+	}
+
+	.chat_messenger_name_img .chat_messenger_name{
+		width: 70%;
+		height: 25px;
+		float: left;
+	}
+
+	.chat_messenger_name_img .chat_messenger_name .chat_msger_name_h6{
+		width: 100%;
+		/*min-height: 25px;*/
+		float: left;
+	}
+
+	.chat_messenger_name_img .chat_messenger_name h6{
+		color: #585858;
+		font-size: .9rem;
+		padding-left: 6px;
+	}
+
+	.chat_messenger_name .chat_time{
+		width: 100%;
+		padding-left: 5px;
+	}
+
+	.chat_messenger_name_msg {
+	    width: 78%;
+	}
+
+	.left_msg_img{
+		width: 14%;
+	}
+
+	.left_msg_text{
+		width: 85%;
+	}
+
+	.right_msg_img{
+		width: 14%;
+	}
+
+	.right_msg_text{
+		width: 85%;
+	}
+
+	.active_customer_img{
+		width: 35px;
+	    height: 35px;
+	}
+
+	.active_customer_img img {
+	    width: 100%;
+	    height: 100%;
+	}
+
+	.sidebar_wrapper .navbar-collapse{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	.responsive_navbar .navbar-collapse{
+		left: 0;
+	}
+
+	.logo_area {
+	    width: 100%;
+	    height: auto;
+	    padding-top: 10px;
+	}
+
+	.top_navbar_wrapper ul li {
+		padding: 9px;
+		border-right: 1px solid #363e48;
+	}
+
+	.top_navbar_wrapper ul li:hover{
+		padding: 9px;
+		background-color: #363e48;
+	}
+
+	.navbar{
+		min-height: 3rem;
+	}
+
+	.navbar_area_sm{
+		width: 100%; 
+		height: 40px;
+	}
+
+	.navbar-toggler {
+		min-height: 2em;
+	    -webkit-align-self: flex-start;
+	    -ms-flex-item-align: start;
+	    align-self: flex-start;
+	    padding: .25rem .75rem;
+	    font-size: 1.25rem;
+	    line-height: 1;
+	    background: 0 0;
+	    border: 1px solid transparent;
+	    border-radius: .25rem;
+	    margin-top: 4px;
+	}
+
+	.navbar-light .navbar-toggler{
+	    border-color: #fff;
+	}
+
+	.collapse.show {
+	    /*margin-top: 52px;*/
+	}
+
+	.search{
+		padding-bottom: 10px;
+		padding-top: 8px;
+	}
+
+	.pane_header{
+		width: 100%;
+		min-height: 7.7rem;
+		padding-top: 1rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		padding-bottom: 2rem;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.pane_header_sample_ticket{
+		width: 10%;
+		float: left;
+		padding-top: .5rem;
+	}
+
+	.pane_header_editable{
+		width: 85%;
+		float: left;
+	}
+
+	.pane_body_sample_ticket {
+	    width: 8%;
+	    float: left;
+	}
+
+	.pane_body_rich_editor {
+	    width: 92%;
+	    min-height: 10rem;
+	    float: left;
+	}
+
+	/*chat*/
+
+	.chat_user_messages_wrapper .chat_msg {
+	    width: 100%;
+	    height: auto;
+	    padding-left: 40px;
+	}
+
+	.chat_user_img {
+	    width: 30px;
+	    height: 32px;
+	}
+
+	.left_msg_img {
+	    width: 20%;
+	}
+
+	.right_msg_img{
+		width: 20%;
+	}
+
+	.left_msg_text{
+		width: 79%;
+	}
+
+	.right_msg_text{
+		width: 79%;
+	}
+
+	.left_msg_img img{
+		width: 30px;
+		height: 30px;
+	}
+
+	.right_msg_img img{
+		width: 30px;
+		height: 30px;
+	}
+
+	.message_input_field .input-group .msg_submit {
+	    padding-left: 2px;
+	}
+
+	.active_customer_img{
+		width: 30px;
+	    height: 30px;
+	}
+
+	.active_customer_img img {
+	    width: 100%;
+	    height: 100%;
+	}
+
+	
+
+}
+
+@media only screen and (max-width: 520px) {
+	.top_navbar_wrapper{
+		width: 100%;
+		height: auto;
+		text-align: left;
+	}
+
+	.dashboard_tabpanel_area .tabpanel_wrapper {
+		overflow-x: auto;
+	}
+
+	.pane_header {
+	    width: 100%;
+	    min-height: 9rem;
+	    padding-top: 1rem;
+	    padding-left: 1rem;
+	    padding-right: 1rem;
+	    padding-bottom: 2rem;
+	    border-bottom: 1px solid #ddd;
+	}
+
+	.pane_header_sample_ticket{
+		width: 10%;
+		float: left;
+		padding-top: .5rem;
+	}
+
+	.pane_header_editable {
+	    width: 85%;
+	    float: left;
+	}
+
+	.pane_body_sample_ticket {
+	    width: 12%;
+	    float: left;
+	}
+
+	.pane_body_rich_editor {
+	    width: 88%;
+	    min-height: 10rem;
+	    float: left;
+	}
+
+	.conversation_user_photo {
+	    width: 10%;
+	    min-height: 50px;
+	    padding: .5rem;
+	    float: left;
+	}
+
+	.conversation_msg {
+	    width: 90%;
+	    min-height: 50px;
+	    float: left;
+	}
+
+	.customer_info_wrapper{
+		display: none;
+	}
+
+	.left_msg_img {
+	    width: 11%;
+	}
+
+	.right_msg_img {
+	    width: 11%;
+	}
+
+	.message_input_field .input-group .msg_submit {
+	    padding-left: 13px;
+	}
+
+	.chat_list_wrapper{
+		display: none;
+	}
+
+	.nav_chat_list{
+		display: block; 
+	}
+
+	.nav_chat_list button{
+		display: block; 
+	}
+
+	.common_wrapper_list .common_p_data_list_area{
+		width: 100%;
+		overflow-x: auto;
+	}
+
+	.reporting_section_area .reporting_tab_panel_body ul {
+	    padding-left: .5rem; 
+	}
+
+	.reporting_section_area .reporting_tab_panel_body .nav-tabs .nav-item {
+	    padding-right: 0rem; 
+	}
+
+	.reporting_section_area .reporting_tab_panel_body .nav-tabs .nav-link {
+	    padding-left: .5rem;
+	    padding-right: .5rem;
+	    text-align: center;
+	}
+
+	.reporting_section_area .rp_new_tickets_chart{
+		width: 100%;
+	}
+
+	.reporting_section_area .rp_new_tickets_chart iframe{
+		width: 100% !important;
+		margin: 0px auto;
+	}
+
+	.reporting_section_area .rp_new_tickets_chart canvas{
+		width: 100% !important;
+		position: relative;
+	}
+
+}
+
+@media only screen and (max-width: 400px) {
+
+	.search input.search_field {
+	    padding: 5px;
+	    border: 0px;
+	    margin-top: 5px;
+	    width: 85.8%;
+	}
+
+	.top_navbar_wrapper ul li {
+	    padding: 10px 4px 12px 0px !important;
+	    border-right: 1px solid #363e48;
+	}
+
+	.dashboard_tabpanel_area .tabpanel_wrapper {
+		overflow-x: auto;
+	}
+
+	.pane_header {
+	    width: 100%;
+	    min-height: 9rem;
+	    padding-top: 1rem;
+	    padding-left: 1rem;
+	    padding-right: 1rem;
+	    padding-bottom: 2rem;
+	    border-bottom: 1px solid #ddd;
+	}
+
+	.pane_header_sample_ticket{
+		width: 10%;
+		float: left;
+		padding-top: .5rem;
+	}
+
+	.customer_info_wrapper{
+		display: none;
+	}
+
+	.reporting_section_area .reporting_tab_panel_body ul {
+	    padding-left: .1rem; 
+	}
+
+	.reporting_section_area .reporting_tab_panel_body .nav-tabs .nav-item {
+	    padding-right: 0rem; 
+	}
+
+	.reporting_section_area .reporting_tab_panel_body .nav-tabs .nav-link {
+	    padding-left: .3rem;
+	    padding-right: .3rem;
+	    text-align: center;
+	}
+}
+
+@media screen and (max-width:348px){
+
+	.top_navbar_wrapper ul li {
+	    padding: 10px 4px 12px 0px !important;
+	    border-right: 1px solid #363e48;
+	}
+
+	.left_msg_img {
+	    width: 14%;
+	}
+
+	.right_msg_img {
+	    width: 14%;
+	}
+
+	.reporting_section_area .reporting_tab_panel_body ul {
+	    padding-left: 0rem; 
+	}
+
+	.reporting_section_area .reporting_tab_panel_body .nav-tabs .nav-item {
+	    padding-right: 0rem; 
+	}
+
+	.reporting_section_area .reporting_tab_panel_body .nav-tabs .nav-link {
+	    padding-left: .1rem;
+	    padding-right: .1rem;
+	    text-align: center;
+	}
+}
+
+
